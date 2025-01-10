@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
-uploaded_file  = r'D:\Amit\task1\tips.csv'
+uploaded_file  = r'task1/tips.csv'
 data = pd.read_csv(uploaded_file)
 
 
